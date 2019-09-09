@@ -7,10 +7,10 @@
       </listeners>
     </ksession>
   </kbase>
-  <kbase name="kbase1" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss.pkg1">
+  <kbase name="kbase1" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss.pkg1">
     <ksession name="ksession1" type="stateless" default="true" clockType="realtime"/>
   </kbase>
-  <kbase name="kbase2" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss.pkg2">
+  <kbase name="kbase2" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss.pkg2">
     <ksession name="ksession2" type="stateless" default="true" clockType="realtime"/>
   </kbase>
 </kmodule>
