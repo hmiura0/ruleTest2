@@ -9,8 +9,16 @@
   </kbase>
   <kbase name="kbase1" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss.pkg1">
     <ksession name="ksession1" type="stateless" default="true" clockType="realtime"/>
+      <listeners>
+        <ruleRuntimeEventListener type="org.drools.core.event.DebugRuleRuntimeEventListener"/>
+        <agendaEventListener type="org.drools.core.event.DebugAgendaEventListener"/>
+      </listeners>
   </kbase>
   <kbase name="kbase2" default="true" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss.pkg2">
     <ksession name="ksession2" type="stateless" default="true" clockType="realtime"/>
+      <listeners>
+        <ruleRuntimeEventListener type="org.drools.core.event.DebugRuleRuntimeEventListener"/>
+        <agendaEventListener type="org.drools.core.event.DebugAgendaEventListener"/>
+      </listeners>
   </kbase>
 </kmodule>
