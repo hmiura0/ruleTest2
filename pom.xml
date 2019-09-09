@@ -22,10 +22,10 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
     <version.redhat.ba>7.2.1.GA-redhat-00002</version.redhat.ba>
-    <maven.compiler.source>1.8</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <version.drools>7.14.0.Final-redhat-00004</version.drools>
+    <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <version.drools>7.14.0.Final-redhat-00004</version.drools>
     <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
   </properties>
   <dependencyManagement>
