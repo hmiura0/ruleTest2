@@ -1,2 +1,8 @@
 package com.redhat.gss.pkg2;
 
+rule "rule2"
+when
+    com.redhat.gss.Person( )
+then
+    System.out.println("### rule2 is execited!");
+end
