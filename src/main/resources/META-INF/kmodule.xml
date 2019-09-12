@@ -2,10 +2,4 @@
   <kbase name="testKieBase" default="true" eventProcessingMode="stream" equalsBehavior="identity">
     <ksession name="testKieSession" type="stateless" default="true" clockType="realtime"/>
   </kbase>
-  <kbase name="kbase1" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss.pkg1">
-    <ksession name="ksession1" type="stateless" default="true" clockType="realtime"/>
-  </kbase>
-  <kbase name="kbase2" default="false" eventProcessingMode="stream" equalsBehavior="identity" packages="com.redhat.gss.pkg2">
-    <ksession name="ksession2" type="stateless" default="true" clockType="realtime"/>
-  </kbase>
 </kmodule>
