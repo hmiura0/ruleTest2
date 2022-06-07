@@ -8,16 +8,7 @@
   <packaging>kjar</packaging>
   <name>ruleTest2</name>
   <description></description>
-  <distributionManagement>
-    <repository>
-      <id>releases</id>
-      <url>http://nexus-rhpam73.apps.hmiura01.lab.pnq2.cee.redhat.com/nexus/content/repositories/releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <url>http://nexus-rhpam73.apps.hmiura01.lab.pnq2.cee.redhat.com/nexus/content/repositories/snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement>
+
   <properties>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
@@ -48,7 +39,7 @@
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
-      <version>1.4.11</version>
+      <version>1.4.14-jdk7</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -69,7 +60,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
